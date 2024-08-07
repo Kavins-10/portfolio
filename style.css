@@ -1,0 +1,117 @@
+body {
+    
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+
+
+}
+
+header {
+    background-color:rgba(42, 41, 41, 0.486) ;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section {
+    padding: 0;
+    text-align: center;
+}
+
+section#about img {
+    width: 100%;
+    max-width: 150px;
+}
+
+section#projects .project {
+    margin: 20px 0;
+}
+
+section#projects .project img {
+    width: 100%;
+    max-width: 500px;
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 600px;
+}
+
+ul li {
+    list-style-type: disc;
+    margin: 5px 0;
+}
+
+ul li ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea {
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f4a353;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f48a11;
+}
